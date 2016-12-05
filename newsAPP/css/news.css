@@ -9,6 +9,25 @@ text-decoration: none;
 list-style: none;
 }
 
+.swiper-container{
+	width: 100%;
+	height: 4rem;
+}
+
+
+.swiper-wrapper .swiper-slide:nth-child(1){
+	background: url("../img/111.jpg") no-repeat;
+	background-size: cover;
+}
+.swiper-wrapper .swiper-slide:nth-child(2){
+	background: url("../img/222.jpg") no-repeat;
+	background-size: cover;
+}
+.swiper-wrapper .swiper-slide:nth-child(3){
+	background: url("../img/333.jpg") no-repeat;
+	background-size: cover;
+}
+
 .shouye{
 	width: 100%;
 	height: auto;
@@ -124,7 +143,7 @@ list-style: none;
     float: left;
     margin-right: 0.4rem;
 }
-span{
+.taiguo span{
 	color:#333;
 	font-size: 0.35rem;
     position: absolute;
@@ -165,6 +184,10 @@ span{
 .zhao span{
 	position: absolute;
 	top: 1.5rem;
+	left: 0.2rem;
+	color:#333;
+	font-size: 0.35rem;
+    font-weight: bold;
 }
 
 .zhuangbi {
@@ -218,8 +241,12 @@ p{
 }
 
 .wenzi1{
+	font-size: 0.3rem;
 	position: absolute;
 	top:8.1rem;
+	left: 0.29rem;
+	color:#666;
+	font-weight: bold;
 }
 
 .wenzi11{
@@ -241,6 +268,7 @@ p{
 	font-size: 0.45rem;
 	position: absolute;
 	top:0.5rem;
+	left: 0.1rem;
 }
 
 .text2{
@@ -274,8 +302,18 @@ p{
 }
 
 .yunying{
+	font-size: 0.4rem;
 	position: absolute;
 	top:21.3rem;
+	left: 0.3rem;
+	font-weight: bold;
+}
+
+.zhao .wenzi33{
+	position: absolute;
+	left: 0.29rem;
+	font-size: 0.3rem;
+	color:#666;
 }
 
 

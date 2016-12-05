@@ -6,10 +6,22 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/news.css">
-    <script src="js/news.js"></script>
-</head>
 
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/news.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+<script>
+    $(function(){
+        var mySwiper = new Swiper ('.swiper-container',
+                {pagination: '.swiper-pagination',
+            autoplay: 5000,}
+        );
+    })
+</script>
 <body>
 
 <div class="shouye">
@@ -23,6 +35,18 @@
             <a href="">社会</a>
         </div>
     </div>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+
+
 
     <!-- 置顶 -->
     <div class="zhiding">
@@ -97,4 +121,5 @@
 </div>
 
 </body>
+
 </html>
